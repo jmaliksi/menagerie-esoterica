@@ -1,0 +1,1081 @@
+<!DOCTYPE html> <html><head>
+		<title>Menagerie Esoterica</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Uno - Menagerie Esoterica">
+		<meta property="og:title" content="Menagerie Esoterica">
+		<meta property="og:description" content="Uno - Menagerie Esoterica">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="menagerie-esoterica/menagerie-esoterica.html">
+		<meta property="og:image" content="menagerie-esoterica/monstrum-assets/truth_card.svg">
+		<meta property="og:site_name" content="Uno">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-frappe ctp-full-palette"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Introduction"><p dir="auto">Introduction</p></h1><div class="el-p"><p dir="auto"><em>What is more fearsome than the monsters of our own making?</em><br>
+<strong>Version: 0.9.2</strong></p></div><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-p"><p dir="auto">The <em>Menagerie Esoterica</em> is a no-prep, narrative-focused tabletop roleplaying game where you and some friends use a deck of tarot cards to craft a monster then play the fools unfortunate enough to face it. It is meant to be played without a GM and without any prep, with the world, the details, and—most importantly—the monster being conjured from whole cloth over the course of the session.</p></div><div class="el-h2 heading-wrapper"><h2 data-heading="Items Needed" dir="auto" class="heading" id="Items_Needed"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Items Needed</h2><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">a Rider-Waite-Smith style tarot deck</li>
+<li data-line="1" dir="auto">a stack of blank index cards</li>
+<li data-line="2" dir="auto">pens, markers, crayons, or anything else with which to draw but not erase</li>
+<li data-line="3" dir="auto">a handful of tokens such as coins, beads, or paperclips</li>
+<li data-line="4" dir="auto">1–4 players</li>
+<li data-line="5" dir="auto">90–120 minutes</li>
+</ul></div><div class="el-h3 heading-wrapper"><h3 data-heading="The Tarot Deck" dir="auto" class="heading" id="The_Tarot_Deck"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>The Tarot Deck</h3><div class="heading-children"><div class="el-p"><p dir="auto">Instead of dice, <em>Menagerie Esoterica</em> uses a Rider-Waite-Smith style tarot deck for randomization. We are only concerned with the cards as literal playing cards, not necessarily their style or symbolism (though by all means use them if you wish!). If you have a different type of tarot deck, or if you're unsure of what type of deck you have in the first place, so long as there are 78 cards categorized into four suits and 22 major arcana, and so long as the drawings have a clear up and down, then that deck can be used with this system. A virtual deck can also be used if it allows for randomly drawing cards in reverse.</p></div><div class="el-p"><p dir="auto">If you're only familiar with 52 card playing card decks, there is some extra terminology that we use in <em>Menagerie Esoterica</em>:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">The <strong>Minor Arcana</strong> are the 56 cards ranked and organized into 4 suits (Wands, Cups, Swords, Pentacles), similar to a 52 card deck</li>
+<li data-line="1" dir="auto">The <strong>Major Arcana</strong> are the 22 additional cards marked by roman numerals, ie II The High Priestess and XIII Death.</li>
+<li data-line="2" dir="auto">Cards are illustrated with an orientation that can be viewed right-side up or upside down. If the card is drawn right-side up (from the perspective of the person who drew), it is <strong>Upright</strong>; if the card is drawn upside down, it is <strong>Reversed</strong>.</li>
+</ul></div><div class="el-h4 heading-wrapper"><h4 data-heading="Optional Rule: Illustrations and Interpretations" dir="auto" class="heading" id="Optional_Rule:_Illustrations_and_Interpretations"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Optional Rule: Illustrations and Interpretations</h4><div class="heading-children"><div class="el-p"><p dir="auto">At any point when you draw a card and have to refer to a table, ie when creating the situation or monster, you may ignore the table and instead use the illustration and related symbolism for your drawn card as inspiration to answer a prompt.</p></div></div></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Summary of Play" dir="auto" class="heading" id="Summary_of_Play"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Summary of Play</h2><div class="heading-children"><div class="el-p"><p dir="auto"><em>Menagerie Esoterica</em> can be played in a single session with no prior preparation. It is divided into two phases:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">In the <strong>Creation</strong> phase, players draw tarot cards to create <strong>Truths</strong> about the setting and the monster, as well as defining the characters that find themselves in this danger. There is no Game Master to create the world and the encounter; instead we use tarot cards to look up entries in various tables, and then let the players' imaginations paint in the connective, finer details.</li>
+<li data-line="1" dir="auto">In the <strong>Engagement</strong> phase, players take turns performing <strong>Gambits</strong>, each describing how their character acts in the face of the monster while using Truths to justify the scene, then resolving the action by drawing tarot cards. In addition to deciding success and failure, the tarot cards will pose <strong>Queries</strong>, asking how the situation progresses or becomes more complicated, thus giving space for players to fill in details and nuance to make their monster truly unique and terrifying. Narrative progression is then recorded symbolically onto the Truth cards.</li>
+</ul></div><div class="el-h3 heading-wrapper"><h3 data-heading="Truths" dir="auto" class="heading" id="Truths"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Truths</h3><div class="heading-children"><div class="el-p"><p dir="auto">At the core of <em>Menagerie Esoterica</em> are Truths. Truths initially get recorded on index cards as a name and icon and serve as springboards and pillars to create more ideas. Over the course of play, players will draw more icons on them as the situation evolves, essentially creating their own unique esoterica.</p></div><div class="el-p"><p dir="auto">When creating a Truth card, take a blank index card and orient it vertically. Summarize the Truth to a 1-3 word name and write this at the bottom of the card. Take no more than one (1) minute to sketch an icon in the center of the card representing the Truth, leaving plenty of room for more icons to be added. Finally, start a tally with one (1) tick at the top of the card.</p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="+" data-callout="example" class="callout is-collapsible"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content">
+<p dir="auto"><span alt="truth_card.svg" src="truth_card.svg" class="internal-embed media-embed image-embed is-loaded"><img alt="truth_card.svg" src="menagerie-esoterica/monstrum-assets/truth_card.svg"></span></p>
+</div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Shuffling the Deck" dir="auto" class="heading" id="Shuffling_the_Deck"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Shuffling the Deck</h3><div class="heading-children"><div class="el-p"><p dir="auto">Typically, shuffling a deck seven (7) times will fully randomize the card order. However, we need to make sure cards can be drawn in a random orientation as well. When cutting the deck to shuffle, turn one half 180°, but otherwise proceed with your shuffling as normal to create a single <strong>draw pile</strong>.</p></div><div class="el-p"><p dir="auto">After drawing cards (and unless otherwise stated), place them in a <strong>discard pile</strong> face up next to the draw pile. Whenever the discard pile is clearly taller than the draw pile, shuffle the two back together to form a new draw pile.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Ordering Cards" dir="auto" class="heading" id="Ordering_Cards"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Ordering Cards</h3><div class="heading-children"><div class="el-p"><p dir="auto">Some mechanics ask that players order their cards, ie when determining turn order. To put it simply, we only look at the number on the card regardless of suit. For unnumbered cards, we have Ace as equivalent to 1, Page as 11, Knight as 12, Queen as 13, and King as 14. Draw again to resolve ties.</p></div></div></div></div></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Creation" dir="auto" class="heading" id="Creation">Creation</h1><div class="heading-children"><div class="el-h2 heading-wrapper"><h2 data-heading="Creating the Situation" dir="auto" class="heading" id="Creating_the_Situation"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Creating the Situation</h2><div class="heading-children"><div class="el-p"><p dir="auto">Before all else, the world must be made. </p></div><div class="el-p"><p dir="auto">To set the themes for the session, the players must first answer one question: <strong>are you the hunters or the hunted?</strong> Is this a monster hunt with a party of competent hunters going into the wilderness to claim their trophy? Is this a horror, where characters are not expected to live past the first act, let alone until the end?</p></div><div class="el-p"><p dir="auto">If there is no strong consensus either way, draw one (1) card. If it is Reversed, the party is the hunted. If it is Upright, the party is the hunter.</p></div><div class="el-p"><p dir="auto">Now we must get the general <strong>setting</strong>. Draw cards until one (1) <strong>Minor Arcana</strong> is found. Use the rank and orientation of the card with the table below to get a descriptor for the location.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Rank</th>
+<th dir="ltr">Upright</th>
+<th dir="ltr">Reverse</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Ace</td>
+<td dir="ltr">Abandoned<br><em>Empty echoes and unlit places</em></td>
+<td dir="ltr">Frozen<br><em>Brittle steps and biting cold</em></td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="ltr">Amethyst<br><em>Translucent violet, polished and faceted</em></td>
+<td dir="ltr">Fungal<br><em>Mold and mycelium and spores</em></td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="ltr">Ancient<br><em>Old like the dirt and old like the sky</em></td>
+<td dir="ltr">Haunted<br><em>The dearly departed and those less dear</em></td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="ltr">Arcane<br><em>Obtuse texts and crackling sigils abound</em></td>
+<td dir="ltr">Infinite<br><em>Larger than the mind can think</em></td>
+</tr>
+<tr>
+<td dir="auto">5</td>
+<td dir="ltr">Bloody<br><em>Squelching meat and dripping hearts</em></td>
+<td dir="ltr">Misty<br><em>A clammy curtain hiding one and all</em></td>
+</tr>
+<tr>
+<td dir="auto">6</td>
+<td dir="ltr">Brass<br><em>Tarnished gold and grandeur</em></td>
+<td dir="ltr">Nightmare<br><em>The only limits are imagination and fear</em></td>
+</tr>
+<tr>
+<td dir="auto">7</td>
+<td dir="ltr">Buried<br><em>But not forgotten</em></td>
+<td dir="ltr">Non-euclidean<br><em>Impossible paths lead to impossible spaces</em></td>
+</tr>
+<tr>
+<td dir="auto">8</td>
+<td dir="ltr">Bustling<br><em>Lived in and lived with for better or for worse</em></td>
+<td dir="ltr">Obisidan<br><em>Blacker than night and sharper than steel</em></td>
+</tr>
+<tr>
+<td dir="auto">9</td>
+<td dir="ltr">Chittering<br><em>Incessant noise and skittering scratches</em></td>
+<td dir="ltr">Overgrown<br><em>Tangled greens and verdant blooms</em></td>
+</tr>
+<tr>
+<td dir="auto">10</td>
+<td dir="ltr">Crumbling<br><em>A monument refusing its call to dust</em></td>
+<td dir="ltr">Remote<br><em>Where screams will go unanswered</em></td>
+</tr>
+<tr>
+<td dir="ltr">Page</td>
+<td dir="ltr">Ethereal<br><em>Substantial as a soul</em></td>
+<td dir="ltr">Shattered<br><em>Broken by an angry will</em></td>
+</tr>
+<tr>
+<td dir="ltr">Knight</td>
+<td dir="ltr">Fey<br><em>Glamor and song for a price</em></td>
+<td dir="ltr">Temporal<br><em>Time goes forward, time goes back</em></td>
+</tr>
+<tr>
+<td dir="ltr">Queen</td>
+<td dir="ltr">Floating<br><em>Among the clouds, defiant and proud</em></td>
+<td dir="ltr">Undead<br><em>A mockery of the living world</em></td>
+</tr>
+<tr>
+<td dir="ltr">King</td>
+<td dir="ltr">Flooded<br><em>Under siege from the sea</em></td>
+<td dir="ltr">Underwater<br><em>Submerged and secluded away from sun and sky</em></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Next, have each player draw and reveal one (1) card at a time until a <strong>Major Arcana</strong> is found. Use the table below to determine the setting's physical location.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Card</th>
+<th dir="ltr">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">0 The Fool</td>
+<td dir="ltr">Apartments<br><em>Homes and halls and concrete walls</em></td>
+</tr>
+<tr>
+<td dir="ltr">I The Magician</td>
+<td dir="ltr">Catacombs<br><em>Twisting passages lay bones to rest</em></td>
+</tr>
+<tr>
+<td dir="ltr">II The High Priestess</td>
+<td dir="ltr">Castle<br><em>Hewn stone and towers tall</em></td>
+</tr>
+<tr>
+<td dir="ltr">III The Empress</td>
+<td dir="ltr">Circus<br><em>A tent of awe and wonder</em></td>
+</tr>
+<tr>
+<td dir="ltr">IV The Emperor</td>
+<td dir="ltr">City<br><em>A grid of steel and glass to touch the sky</em></td>
+</tr>
+<tr>
+<td dir="ltr">V The Hierophant</td>
+<td dir="ltr">Cruise Ship<br><em>Respite and escape, perhaps once</em></td>
+</tr>
+<tr>
+<td dir="ltr">VI The Lovers</td>
+<td dir="ltr">Factory<br><em>The spirit of industry never leaves</em></td>
+</tr>
+<tr>
+<td dir="ltr">VII The Chariot</td>
+<td dir="ltr">Forest<br><em>Old trees and older spells</em></td>
+</tr>
+<tr>
+<td dir="ltr">VIII Strength</td>
+<td dir="ltr">High School<br><em>Bright lights and open books</em></td>
+</tr>
+<tr>
+<td dir="ltr">IX The Hermit</td>
+<td dir="ltr">Hospital<br><em>Life and death in package deal</em></td>
+</tr>
+<tr>
+<td dir="ltr">X Wheel of Fortune</td>
+<td dir="ltr">Island<br><em>Sand and sea and salt and sky</em></td>
+</tr>
+<tr>
+<td dir="ltr">XI Justice</td>
+<td dir="ltr">Jungle<br><em>Lush greens and humid air</em></td>
+</tr>
+<tr>
+<td dir="ltr">XII The Hanged Man</td>
+<td dir="ltr">Mall<br><em>A palace built for exchange</em></td>
+</tr>
+<tr>
+<td dir="ltr">XIII Death</td>
+<td dir="ltr">Mansion<br><em>A bloodline's own</em></td>
+</tr>
+<tr>
+<td dir="ltr">XIV Temperance</td>
+<td dir="ltr">Offices<br><em>A honeycomb fit for busy bees</em></td>
+</tr>
+<tr>
+<td dir="ltr">XV The Devil</td>
+<td dir="ltr">Sanitarium<br><em>Hospice of the mind</em></td>
+</tr>
+<tr>
+<td dir="ltr">XVI The Tower</td>
+<td dir="ltr">Space Station<br><em>Steel, thinner than you think</em></td>
+</tr>
+<tr>
+<td dir="ltr">XVII The Star</td>
+<td dir="ltr">Suburbs<br><em>A house and a house and a house and a house</em></td>
+</tr>
+<tr>
+<td dir="ltr">XVIII The Moon</td>
+<td dir="ltr">Temple<br><em>What gods are watching</em></td>
+</tr>
+<tr>
+<td dir="ltr">XIX The Sun</td>
+<td dir="ltr">Train<br><em>An iron road to who knows where</em></td>
+</tr>
+<tr>
+<td dir="ltr">XX The Last Judgement</td>
+<td dir="ltr">Village<br><em>Simple and honest, or maybe not</em></td>
+</tr>
+<tr>
+<td dir="ltr">XXI The World</td>
+<td dir="ltr">Wasteland<br><em>Scoured, dried, and barren</em></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Record the descriptor and location on the bottom of a blank index card. In the center of the card, draw a quick icon representing the locale. Don't spend more than a minute drawing this as we will be adding more icons and symbology over the course of the game. This card becomes the session's first <strong>Truth</strong>.</p></div><div class="el-p"><p dir="auto">Discard all drawn tarot cards.</p></div><div class="el-h3 heading-wrapper"><h3 data-heading="Truths" dir="auto" class="heading" id="Truths"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Truths</h3><div class="heading-children"><div class="el-p"><p dir="auto"><strong>Truths</strong> paint the setting with specific, evocative details such as the literal physical objects in a scene, peculiarities of the monster's behavior, and even background lore and history. Each Truth is recorded on its own index card, and most importantly, they are <strong>mutable</strong>. Over the course of the Engagement, Truths will evolve and morph as players answer <strong>Queries</strong>, bringing in new elements that can help or complicate the situation as it unfolds.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Players</th>
+<th dir="ltr">Draw</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="auto">1</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Have each player draw as many cards as specified above and go around in order from highest to lowest. Each player says 1–2 sentences as a Truth about the world. Players may use the drawn card's rank with the table below as inspiration for the nature of their Truth, or they may come up with their own. Other players may collaborate and give input. </p></div><div class="el-p"><p dir="auto">Finally, give the Truth a name. Record this name at the bottom of a blank index card, and spend no more than one (1) minute drawing an icon at the center of the card to represent it. </p></div><div class="el-p"><p dir="auto">Once all players have finished creating their Truth(s), place all Truth cards in the center of the play area and discard all drawn tarot cards.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Rank</th>
+<th dir="ltr">Nature</th>
+<th dir="ltr">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Ace<br>I The Magician</td>
+<td dir="ltr">A Truth about life and death.</td>
+<td dir="ltr"><em>- sky burials are common<br>- it is known that a firstborn should never be sacrificed</em></td>
+</tr>
+<tr>
+<td dir="ltr">2<br>II The High Priestess</td>
+<td dir="ltr">A Truth about magic.</td>
+<td dir="ltr"><em>- magic isn't real<br>- mages control physical elements to conserve mana<br>- magic is entirely about how strongly the masses believe</em></td>
+</tr>
+<tr>
+<td dir="ltr">3<br>III The Empress</td>
+<td dir="ltr">A Truth about stone and rock.</td>
+<td dir="ltr"><em>- there's a giant volcano here<br>- stone is stronger than steel<br>- phasing through sandstone is easy</em></td>
+</tr>
+<tr>
+<td dir="ltr">4<br>IV The Emperor</td>
+<td dir="ltr">A Truth about something commonly found.</td>
+<td dir="ltr"><em>- obsidian obelisks sprout up like weeds<br>- leaf litter can be used as kindling for magic</em></td>
+</tr>
+<tr>
+<td dir="ltr">5<br>V The Hierophant</td>
+<td dir="ltr">A Truth about something rarely found.</td>
+<td dir="ltr"><em>- finding a gold coin in the wild means imminent misfortune<br>- the diamond hearts of monsters fetch a pretty penny</em></td>
+</tr>
+<tr>
+<td dir="ltr">6<br>VI The Lovers</td>
+<td dir="ltr">A Truth about technology.</td>
+<td dir="ltr"><em>- we're in a cyberpunk dystopia<br>- lightning powered devices are new and dangerous<br>- technology is plant-based</em></td>
+</tr>
+<tr>
+<td dir="ltr">7<br>VII The Chariot</td>
+<td dir="ltr">A Truth about rivers and seas.</td>
+<td dir="ltr"><em>- oceans are pitch black and full of stars<br>- piranhas infest the rivers</em></td>
+</tr>
+<tr>
+<td dir="ltr">8<br>VIII Strength</td>
+<td dir="ltr">A Truth about the architecture.</td>
+<td dir="ltr"><em>- buildings are made of paper and wood<br>- great spires reach the clouds to catch lightning<br>- houses like to walk around</em></td>
+</tr>
+<tr>
+<td dir="ltr">9<br>IX The Hermit</td>
+<td dir="ltr">A Truth about the fauna.</td>
+<td dir="ltr"><em>- cats are sentient and have thumbs<br>- goats are the size of SUVs<br>- all animals are hybrids of earth animals<br>- monsters don't exist</em></td>
+</tr>
+<tr>
+<td dir="ltr">10<br>X Wheel of Fortune</td>
+<td dir="ltr">A Truth about the flora.</td>
+<td dir="ltr"><em>- tulips are made of glass<br>- the trees scream when you cut them</em></td>
+</tr>
+<tr>
+<td dir="ltr">Page<br>XI Justice</td>
+<td dir="ltr">A Truth about the history and tradition.</td>
+<td dir="ltr"><em>- the city was founded by exiled witches<br>- clocks are forbidden<br>- the Age of Heroes is long past, the Age of Monsters even longer</em></td>
+</tr>
+<tr>
+<td dir="ltr">Knight<br>XII The Hanged Man</td>
+<td dir="ltr">A Truth about what's above.</td>
+<td dir="ltr"><em>- ash perpetually falls from the sky<br>- the sun was shattered blanketing everything in perpetual darkness<br>- the ruins ceiling is so tall that there are clouds<br>- the air is so damp a match won't light</em></td>
+</tr>
+<tr>
+<td dir="ltr">Queen<br>XIII Death</td>
+<td dir="ltr">A Truth about what's below.</td>
+<td dir="ltr"><em>- you must walk without rhythm lest you attract the worm<br>- the dungeon's floors are spotless due to regular cleaning<br>- clouds</em></td>
+</tr>
+<tr>
+<td dir="ltr">King<br>XIV Temperance</td>
+<td dir="ltr">A Truth about what's taught.</td>
+<td dir="ltr"><em>- hunting monsters is a well studied profession<br>- everyone knows how start a campfire with magic<br>- math doesn't exist</em></td>
+</tr>
+<tr>
+<td dir="ltr">XV The Devil<br>XVI The Tower<br>XVII The Star<br>XVIII The Moon</td>
+<td dir="ltr">A Truth about who lives here.</td>
+<td dir="ltr"><em>- the villagers have all taken a vow of silence<br>- scavengers pick apart the battlefield for metal<br>- the cooler the hat the higher your status</em></td>
+</tr>
+<tr>
+<td dir="ltr">XIX The Sun<br>XX The Last Judgement<br>XXI The World<br>0 The Fool</td>
+<td dir="ltr">A Truth about arms and armor.</td>
+<td dir="ltr"><em>- knights wear breastplates and codpieces<br>- it costs $400,000 to fire a gun for 6 seconds<br>- giant swords made from slain monsters are the most effective tool for hunting</em></td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Why are you here?" dir="auto" class="heading" id="Why_are_you_here?"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Why are you here?</h3><div class="heading-children"><div class="el-p"><p dir="auto">Finally, determine <strong>why you are here</strong>. Each player draws one (1) card. Go around from highest to lowest, suggesting in one sentence why the group is here. Discuss for a maximum of five minutes, picking and choosing from all suggestions. The goal for this final step is to make sure the players are all in the same headspace before moving on to character creation.</p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="-" data-callout="example" class="callout is-collapsible is-collapsed"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content" style="display: none;">
+<p dir="auto"><em>Some reasons why the party may be here:</em></p>
+<ul>
+<li data-line="2" dir="auto">we all just woke up here</li>
+<li data-line="3" dir="auto">we're a group of teens and a dog and our van broke down</li>
+<li data-line="4" dir="auto">we're a squad of commandos sent to investigate</li>
+</ul>
+</div></div></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Example of Creating the Situation" dir="auto" class="heading" id="Example_of_Creating_the_Situation"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Example of Creating the Situation</h2><div class="heading-children"><div class="el-div"><div data-callout-metadata="" data-callout-fold="-" data-callout="example" class="callout is-collapsible is-collapsed"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content" style="display: none;">
+<p dir="auto">BECKANY: First question: are we the hunters or the hunted?<br>
+HAWTHORNE: I'm feeling <strong>the hunted</strong>.<br>
+MILDRED: Agreed.<br>
+BECAKNY: Thirded! Now we each draw cards until we find a <strong>Minor Arcana</strong>. I pull... <strong>5 of Swords</strong>.<br>
+MILDRED: That corresponds with <strong>Bloody</strong>.<br>
+BECKANY: Ok, now let's go around until we find a <strong>Major Arcana</strong> to see what this Bloody place is. I got the 10 of Wands. Nope.<br>
+HAWTHORNE: 8 of Pentacles.<br>
+MILDRED: Knight of Wands.<br>
+BECKANY: Aha! <strong>III The Empress</strong>. This puts us in the <strong>Bloody Circus</strong>.<br>
+HAWTHORNE: Cheery.<br>
+BECKANY: Well, let's spruce it up a bit. Time to add in some <strong>Truths</strong>. Everyone draw a card and we'll go from highest to lowest.<br>
+MILDRED: I drew the <strong>Page of Pentacles</strong> so I go first by telling a "Truth about the history and tradition." Let's say <strong>the Bloody Circus was a gladiator arena that disappeared long ago, but suddenly appeared now.</strong><br>
+HAWTHORNE: Oh, gladiators are fun. I drew <strong>IV The Emperor</strong> so I can go next. "A Truth about something commonly found." Let's keep going with the gladiator theme. <strong>Swords and spears litter the area, seemingly covered in fresh blood.</strong><br>
+BECKANY: I feel like we're not sprucing up the place very well. I drew the <strong>3 of Pentacles</strong>, which asks for a "Truth about stone and rock". What if <strong>the rocks are very polite but only if you speak to them softly</strong>?<br>
+HAWTHORNE: Honestly, I love that. The rocks have seen so much.<br>
+MILDRED: They know what happens to those who are rude.<br>
+BECKANY: Yeah! Alright, each of us draws one more time so we can suggest <strong>why we are here</strong>. I got <strong>XIV Temperance</strong> so I go first. What if we're here purely on accident. We were just minding our business and the Bloody Circus appeared around us.<br>
+HAWTHORNE: I got <strong>X Wheel of Fortune</strong> so I'm next. Maybe we're here because of a mad wizard who just summoned random people for an anime tournament arc.<br>
+MILDRED: <strong>3 of Wands</strong>. Strength. Effort. Commerce. I think we were here with purpose to watch the gladiator fights. However, a monster escaped.<br>
+BECKANY: Right! Let's unify all those. I kinda like the idea that we were here on purpose, but maybe not as spectators?<br>
+HAWTHORNE: You mean like we came to fight? But aren't we supposed to be the hunted?<br>
+BECKANY: Maybe we drew the short straw or something.<br>
+MILDRED: <strong>The mad wizard's champion already defeated and devoured all the strongest warriors. We're all that's left to stop the mad wizard from world domination.</strong><br>
+BECKANY: Hell yeah.</p>
+</div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Creating the Player Characters" dir="auto" class="heading" id="Creating_the_Player_Characters"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Creating the Player Characters</h2><div class="heading-children"><div class="el-p"><p dir="auto">Once we know the situation, we can create our characters. Like Truths, a character sheet will just be recorded on an index card. Have each player draw one (1) card and go from highest to lowest, telling one another your character's <strong>name</strong> and <strong>Specialty</strong>.</p></div><div class="el-p"><p dir="auto">Every individual is as baseline competent as the agreed upon themes, but they have come together as a party because each brings a <strong>Specialty</strong> that the others aren't quite as good at. Specialties are meant to be broad, and like Truths, will get riffed off of and further refined over the course of the Engagement. For example, inventories are not precisely tracked and instead players may freely conjure items from their packs and pockets if it makes sense within the context of their Specialty.</p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="-" data-callout="example" class="callout is-collapsible is-collapsed"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content" style="display: none;">
+<p dir="auto"><em>Specialties might be along the lines of:</em></p>
+<ul>
+<li data-line="2" dir="auto">Marksmanship</li>
+<li data-line="3" dir="auto">Driving</li>
+<li data-line="4" dir="auto">Animal Handling</li>
+<li data-line="5" dir="auto">Structural Engineering</li>
+<li data-line="6" dir="auto">Parkour</li>
+<li data-line="7" dir="auto">Big and strong</li>
+<li data-line="8" dir="auto">Fireball</li>
+</ul>
+</div></div></div><div class="el-p"><p dir="auto">Record the name of your character on a blank index card, draw an icon in the center of the card representing their Specialty, and start a tally with one (1) tick at the top of the card. Character cards are <strong>Truths</strong>, and each card can be placed in front of their respective player.</p></div><div class="el-p"><p dir="auto">With the stage dressed and the actors present, we now drop them <em>in media res</em> with the monster's first sighting.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Creating the Monster" dir="auto" class="heading" id="Creating_the_Monster"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Creating the Monster</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Step 1. Divine Natures of the Beast" dir="auto" class="heading" id="Step_1._Divine_Natures_of_the_Beast"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Step 1. Divine Natures of the Beast</h3><div class="heading-children"><div class="el-p"><p dir="auto">The earth rumbles in heart-shaking bass under an echoing snarl that grows from the darkness. What brings the beast here? What is its <strong>Drive</strong>? The monster is in conflict with the players for a reason, and understanding this reason may help resolve the situation.</p></div><div class="el-p"><p dir="auto">Draw one (1) card and place it horizontally in the center of the play area. Use the below table to determine the monster’s Drive according to the drawn card’s suit.</p></div><div class="el-p"><p dir="auto"><span alt="drive.svg" src="drive.svg" class="internal-embed media-embed image-embed is-loaded"><img alt="drive.svg" src="menagerie-esoterica/monstrum-assets/drive.svg"></span></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Suit</th>
+<th dir="ltr">Drive</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Major Arcana</td>
+<td dir="ltr">Hunger</td>
+<td dir="ltr">The creature is on the hunt to fill its belly. The simplest way to turn it away is to sate this hunger.</td>
+</tr>
+<tr>
+<td dir="ltr">Cups</td>
+<td dir="ltr">Territory</td>
+<td dir="ltr">The creature is defending its chosen territory, whether that territory was chosen a millennia ago or just this morning.</td>
+</tr>
+<tr>
+<td dir="ltr">Pentacles</td>
+<td dir="ltr">Treasure</td>
+<td dir="ltr">The creature desires valuables to bring back to its nest.</td>
+</tr>
+<tr>
+<td dir="ltr">Swords</td>
+<td dir="ltr">Bond</td>
+<td dir="ltr">The creature has become aggressive in order to impress or defend another creature, perhaps looking for trophies or simply to prove its mettle.</td>
+</tr>
+<tr>
+<td dir="ltr">Wands</td>
+<td dir="ltr">Chaos</td>
+<td dir="ltr">The creature's drive is ultimately a mystery that is only looking for a solution, not understanding.</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Recall <strong>why you are here</strong>. Have each player draw one (1) card and go from highest to lowest with each player speculating about the <strong>Nature of the Beast</strong>, and why this has brought the monster into conflict with the party. All of these are true. None of these are True. Discard the drawn tarot cards.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Step 2. Behold the Monster" dir="auto" class="heading" id="Step_2._Behold_the_Monster"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Step 2. Behold the Monster</h3><div class="heading-children"><div class="el-p"><p dir="auto">The monster emerges, its silhouette now coming into terrifying focus. Have each player draw and reveal one (1) card at a time until a <strong>Major Arcana</strong> is found. Discard any Minor Arcana. The Major Arcana defines the monster's <strong>Body Plan</strong>, ie its general shape and silhouette. Place the Major Arcana vertically over the <strong>Drive</strong> card, making a cross and forming the monster's <strong>Core</strong>.</p></div><div class="el-p"><p dir="auto"><span alt="core.svg" src="core.svg" class="internal-embed media-embed image-embed is-loaded"><img alt="core.svg" src="menagerie-esoterica/monstrum-assets/core.svg"></span></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Card</th>
+<th dir="ltr">Body Plan</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">0 The Fool</td>
+<td dir="ltr">Amorphous</td>
+<td dir="ltr">Like an amoeba</td>
+</tr>
+<tr>
+<td dir="ltr">I The Magician</td>
+<td dir="ltr">Arachnid</td>
+<td dir="ltr">Like a spider or scorpion</td>
+</tr>
+<tr>
+<td dir="ltr">II The High Priestess</td>
+<td dir="ltr">Arborescent</td>
+<td dir="ltr">Like a tree or trunk</td>
+</tr>
+<tr>
+<td dir="ltr">III The Empress</td>
+<td dir="ltr">Avian</td>
+<td dir="ltr">Like an eagle or pelican</td>
+</tr>
+<tr>
+<td dir="ltr">IV The Emperor</td>
+<td dir="ltr">Bell</td>
+<td dir="ltr">Like a mushroom or jellyfish</td>
+</tr>
+<tr>
+<td dir="ltr">V The Hierophant</td>
+<td dir="ltr">Caprine</td>
+<td dir="ltr">Like a goat</td>
+</tr>
+<tr>
+<td dir="ltr">VI The Lovers</td>
+<td dir="ltr">Cephalopod</td>
+<td dir="ltr">Like a squid or octopus</td>
+</tr>
+<tr>
+<td dir="ltr">VII The Chariot</td>
+<td dir="ltr">Elephentine</td>
+<td dir="ltr">Like an elephant or mammoth</td>
+</tr>
+<tr>
+<td dir="ltr">VIII Strength</td>
+<td dir="ltr">Equine</td>
+<td dir="ltr">Like a horse, moose, or yak</td>
+</tr>
+<tr>
+<td dir="ltr">IX The Hermit</td>
+<td dir="ltr">Feline</td>
+<td dir="ltr">Like a tiger or lion</td>
+</tr>
+<tr>
+<td dir="ltr">X Wheel of Fortune</td>
+<td dir="ltr">Geometric</td>
+<td dir="ltr">Like a cube or sphere</td>
+</tr>
+<tr>
+<td dir="ltr">XI Justice</td>
+<td dir="ltr">Hulking</td>
+<td dir="ltr">Like a bear or sloth</td>
+</tr>
+<tr>
+<td dir="ltr">XII The Hanged Man</td>
+<td dir="ltr">Humanoid</td>
+<td dir="ltr">Like a human</td>
+</tr>
+<tr>
+<td dir="ltr">XIII Death</td>
+<td dir="ltr">Insectoid</td>
+<td dir="ltr">Like a dragonfly or ant</td>
+</tr>
+<tr>
+<td dir="ltr">XIV Temperance</td>
+<td dir="ltr">Lupine</td>
+<td dir="ltr">Like a wolf</td>
+</tr>
+<tr>
+<td dir="ltr">XV The Devil</td>
+<td dir="ltr">Radial</td>
+<td dir="ltr">Like a starfish or urchin</td>
+</tr>
+<tr>
+<td dir="ltr">XVI The Tower</td>
+<td dir="ltr">Ranine</td>
+<td dir="ltr">Like a frog</td>
+</tr>
+<tr>
+<td dir="ltr">XVII The Star</td>
+<td dir="ltr">Raptor</td>
+<td dir="ltr">Like an emu or t-rex</td>
+</tr>
+<tr>
+<td dir="ltr">XVIII The Moon</td>
+<td dir="ltr">Reptilian</td>
+<td dir="ltr">Like an alligator or turtle</td>
+</tr>
+<tr>
+<td dir="ltr">XIX The Sun</td>
+<td dir="ltr">Rodent</td>
+<td dir="ltr">Like a rat, squirrel, or capybara</td>
+</tr>
+<tr>
+<td dir="ltr">XX The Last Judgement</td>
+<td dir="ltr">Serpentine</td>
+<td dir="ltr">Like a snake or centipede</td>
+</tr>
+<tr>
+<td dir="ltr">XXI The World</td>
+<td dir="ltr">Simian</td>
+<td dir="ltr">Like a monkey or ape</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">As the party first lays eyes on the monster's main bulk, <strong>recall the setting</strong>. Is this the monster's natural habitat? Or does it stand in stark contrast, an unnatural abomination in a place that it should not be?</p></div><div class="el-p"><p dir="auto">Give the monster a name and write it at the bottom of a blank index card, then draw an icon representing the monster's Core at the center of the card. Start a tally at the top of the card with one (1) tick to finish creating a new <strong>Truth</strong>.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Step 3. Uncover the Monster's Aspects" dir="auto" class="heading" id="Step_3._Uncover_the_Monster's_Aspects"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Step 3. Uncover the Monster's Aspects</h3><div class="heading-children"><div class="el-p"><p dir="auto">An awesome shadow renders further into grotesque detail. With the monster's drive and body defined, we must now give it <strong>Aspects</strong>. </p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Playes</th>
+<th dir="ltr">Aspects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Have each player, one at a time, draw and reveal cards until they draw one (1) <strong>Minor Arcana</strong>. Discard any Major Arcana drawn. Use the table below to determine the Aspect. Give one or two sentences describing how the monster is draped in this power or how the environment warps under its might. All players are invited to collaborate once the first player has had their initial say. Use the table above to determine how many Aspects to draw.</p></div><div class="el-p"><p dir="auto">Many Aspects may at first seem to contradict each other, but every player is invited to make sense of any disparities together, ideally rendering a monster that is both unique and personal to the session and game lore. However, the creation of a monster is at the end of the day fiction first—if an aspect doesn't fit, feels redundant, or even if you've just seen it too recently, simply discard it and draw another card.</p></div><div class="el-p"><p dir="auto">Once satisfied, <strong>create a new Truth card</strong> by writing the name of the Aspect at the bottom of a blank index card and drawing an icon that represents it in the center. Start a tally with one (1) tick at the top of the card.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Card</th>
+<th dir="ltr">Wands</th>
+<th dir="ltr">Cups</th>
+<th dir="ltr">Swords</th>
+<th dir="ltr">Pentacles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">⬆️Ace</td>
+<td dir="ltr"><strong>Amphibious</strong><br><em>A damp stench in stale air. Beware tides and glassy ponds</em><br>The monster can breathe both air and water.</td>
+<td dir="ltr"><strong>Double Headed</strong><br><em>A friend but not for you</em><br>The monster has two heads.</td>
+<td dir="ltr"><strong>Giant</strong><br><em>Even the greatest are made small</em><br>The monster is gigantic in size.</td>
+<td dir="ltr"><strong>Invisibility</strong><br><em>Blackness hiding flight and fight</em><br>The monster can spit obfuscating ink.</td>
+</tr>
+<tr>
+<td dir="ltr">⬇️Ace</td>
+<td dir="ltr"><strong>Pack Hunter</strong><br><em>Where there is one, there are many</em><br>The monster is not a singular creature but rather a coordinated pack of hunters.</td>
+<td dir="ltr"><strong>Pustules</strong><br><em>Ichorous growth waiting to burst</em><br>The monster is covered in <a data-href="#Poison" href="#Poison" class="internal-link" target="_self" rel="noopener nofollow">Poison</a> filled pustules.</td>
+<td dir="ltr"><strong>Slick Slime</strong><br><em>Iridescent ooze clings to every surface</em><br>The monster is coated in a slippery slime that makes standing, let alone holding things, almost impossible.</td>
+<td dir="ltr"><strong>Talons</strong><br><em>A gnarled fistful of knives</em><br>The monster has fearsome talons for clawing and grabbing prey.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️2</td>
+<td dir="ltr"><strong>Apathy Aura</strong><br><em>Malaise to paint the world the flattest grey</em><br>The monster exudes an aura that drains nearby creatures of their will and emotion.</td>
+<td dir="ltr"><strong>Dragonfly Wings</strong><br><em>Gossamer Wings flit and hang in pursuit of prey</em><br>The monster can fly using an array of dragonfly-like wings.</td>
+<td dir="ltr"><strong>Gravity</strong><br><em>When the world turns upside down</em><br>The monster can control gravity around it, causing objects to fall into the sky or crash harder into the ground.</td>
+<td dir="ltr"><strong>Leaf Camouflage</strong><br><em>Beware the rustling thrush</em><br>The monster has a plant-like appearance that renders it all but invisible when laying among flora.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️2</td>
+<td dir="ltr"><strong>Pharyngeal Jaw</strong><br><em>The first bite is not the worst</em><br>The monster has another set of jaws inside its mouth that it uses to grab and hold prey.</td>
+<td dir="ltr"><strong>Quick</strong><br><em>Blink and you'll miss it</em><br>The monster is supernaturally fast and agile.</td>
+<td dir="ltr"><strong>Slinger</strong><br><em>Whistling rocks and spinning blades</em><br>The monster throws objects with unerring accuracy.</td>
+<td dir="ltr"><strong>Telekinesis</strong><br><em>This was not here before</em><br>The monster can move and manipulate objects at a distance with its mind.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️3</td>
+<td dir="ltr"><strong>Armor Scales</strong><br><em>Oiled scales undulate in rhythm. Beautiful, perhaps, any other time</em><br>The monster's skin is comprised of thick scales, impervious to all but the mightiest of blows.</td>
+<td dir="ltr"><strong>Dream Eater</strong><br><em>Sweet dreams are made of thee</em><br>The monster can invade and devour dreams, leaving nightmares and shattered minds behind.</td>
+<td dir="ltr"><strong>Great Leap</strong><br><em>The fall from any distance</em><br>The monster can leap incredible heights and distances.</td>
+<td dir="ltr"><strong>Levitation</strong><br><em>An eclipsing, looming presence</em><br>The monster floats through the air unnaturally.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️3</td>
+<td dir="ltr"><strong>Phasing</strong><br><em>Solid walls are a cage of your own making</em><br>The monster can move through solid matter as if it were air or water.</td>
+<td dir="ltr"><strong>Quills</strong><br><em>A bristling phalanx of one</em><br>The monster has an array of long sharp quills that are useful for both offense and defense.</td>
+<td dir="ltr"><strong>Speech</strong><br><em>What depths lurk beneath these honeyed words?</em><br>The monster is capable of speech and nuanced communication.</td>
+<td dir="ltr"><strong>Telepathy</strong><br><em>Think thoughts that are not your own</em><br>The monster can project its thoughts and emotions into the minds of others, perhaps even being capable of nuanced conversation.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️4</td>
+<td dir="ltr"><strong>Barkskin</strong><br><em>Gnarled wood, creaking softly in threat</em><br>The monster's skin has the appearance and resilience of living wood.</td>
+<td dir="ltr"><strong>Drill</strong><br><em>Churning stone finds blood and bone</em><br>The monster has spinning drill-like horns to tunnel through solid walls, the ground, and prey.</td>
+<td dir="ltr"><strong>Heat Vision</strong><br><em>Agony at a glance</em><br>The monster can focus rays of searing heat from its eyes that can melt steel and burn flesh.</td>
+<td dir="ltr"><strong>Life Drain</strong><br><em>A meal of blood and soul</em><br>The monster sucks vitality from prey to make itself more powerful.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️4</td>
+<td dir="ltr"><strong>Plant Growth</strong><br><em>Flowers bloom, lichen spreads, vines engulf, brambles rend</em><br>The monster can cause hostile plants to immediately grow in the area.</td>
+<td dir="ltr"><strong>Reflective</strong><br><em>A mirror for the occult</em><br>The monster reflects light and careless magic.</td>
+<td dir="ltr"><strong>Spider Climb</strong><br><em>Don't look up</em><br>The monster can climb walls and hang from the ceiling while keeping its hands (or equivalent) free</td>
+<td dir="ltr"><strong>Teleportation</strong><br><em>Flits of broken geometry and unhindered space</em><br>The monster can jump to places it knows or sees without moving through the intervening space.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️5</td>
+<td dir="ltr"><strong>Bat Wings</strong><br> <em>Taut skin and manic beats, claws made to climb the sky</em><br>The monster can fly using bat-like leather wings.</td>
+<td dir="ltr"><strong>Echolocation</strong><br> <em>Rumbling clicks find every hidden morsel</em><br>The monster can navigate and locate objects in its vicinity through sound alone.</td>
+<td dir="ltr"><strong>Heavy</strong><br><em>The immovable object</em><br>The monster is a juggernaut that is nigh impossible to move against its will.</td>
+<td dir="ltr"><strong>Light Drinker</strong><br><em>Dark places can be made even darker</em><br>The monster can snuff out sources of light on a whim.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️5</td>
+<td dir="ltr"><strong>Poison Coat</strong><br><em>Oily flesh and burning skin</em><br>The monster is coated in a deadly <a data-href="#Poison" href="#Poison" class="internal-link" target="_self" rel="noopener nofollow">Poison</a> that is transferred by touch.</td>
+<td dir="ltr"><strong>Regeneration</strong><br><em>Lost your head? Just grow a new one!</em><br>The monster can regenerate from physical harm supernaturally fast.</td>
+<td dir="ltr"><strong>Spike Tail</strong><br><em>Destruction comes easily from behind</em><br>The monster has a spiked club at the end of a powerful tail.</td>
+<td dir="ltr"><strong>Tentacles</strong><br><em>A writhing dance and crush</em><br>The monster has a mass of tentacles that can be used for locomotion, manipulation, offense, and defense.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️6</td>
+<td dir="ltr"><strong>Beak</strong><br><em>Peck. Peck. Peck.</em><br>The monster has a fearsome beak for its mouth parts.</td>
+<td dir="ltr"><strong>Elemental Aura</strong><br><em>Nature's wrath a churning protest</em><br>The monster is surrounded by an elemental aura according to its <a data-href="#Affinity" href="#Affinity" class="internal-link" target="_self" rel="noopener nofollow">Affinity</a> that clashes with all that come near.</td>
+<td dir="ltr"><strong>Heightened Smell</strong><br><em>Sharp inhales scour the winds for prey</em><br>The monster has a powerful sense of smell for tracking and identifying targets.</td>
+<td dir="ltr"><strong>Living Shadow</strong><br><em>Flickering facsimile upon the wall</em><br>The monster is a living shadow, able to melt and form from dark places.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️6</td>
+<td dir="ltr"><strong>Poison Spit</strong> <br><em>Wretching coughs spread misery and despair</em><br>The monster can spit out a deadly <a data-href="#Poison" href="#Poison" class="internal-link" target="_self" rel="noopener nofollow">Poison</a> at targets.</td>
+<td dir="ltr"><strong>Rending Mandibles</strong><br><em>Sharp clicks and chitters hunger for flesh</em><br>The monster has powerful mandibles to grip and tear prey.</td>
+<td dir="ltr"><strong>Spines</strong><br><em>Come close at your own peril</em><br>The monster has hard, bone-like spines along its body.</td>
+<td dir="ltr"><strong>Thick Feathers</strong><br><em>A mass of razor down wields comfort for one</em><br>The monster has a coat of thick feathers, protecting it from minor damage as well as the elements.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️7</td>
+<td dir="ltr"><strong>Big Sword</strong><br><em>Wicked steel in wicked hands</em><br> The monster wields a giant blade.</td>
+<td dir="ltr"><strong>Elemental Breath</strong><br><em>Bad breath is the least of your worries</em><br>The monster can expel a gout of elemental fury according to its <a data-href="#Affinity" href="#Affinity" class="internal-link" target="_self" rel="noopener nofollow">Affinity</a>.</td>
+<td dir="ltr"><strong>Horns</strong><br><em>Skull split by ivory, a trophy fit for the foolish</em><br>The monster has great horns meant for piercing or ramming (or both) protruding from its head</td>
+<td dir="ltr"><strong>Lullaby</strong><br><em>Rest not thy weary heart</em><br>The monster sings a song that lulls creatures into a false comfort.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️7</td>
+<td dir="ltr"><strong>Poison Spores</strong><br><em>Breathe deep the sallow haze</em><br>The monster emits airborne spores that can cause <a data-href="#Poison" href="#Poison" class="internal-link" target="_self" rel="noopener nofollow">Poison</a> when inhaled.</td>
+<td dir="ltr"><strong>Rock Armor</strong><br><em>A thousand years is not enough to wear the mountains away</em><br>The monster is protected by armor formed from earth, stone, and mineral.</td>
+<td dir="ltr"><strong>Spinnerets</strong><br><em>Spun silk entraps, suffocates, and dazzles</em><br>The monster can spin webs to traverse its lair and to trap prey.</td>
+<td dir="ltr"><strong>Thick Fur</strong><br> <em>Acrid, matted, and unwashed tangle</em><br>The monster has a mane or coat of thick fur, protecting it from minor damage as well as the elements.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️8</td>
+<td dir="ltr"><strong>Bullet Punch</strong><br><em>Blunt force trauma at the speed of sound</em><br>The monster can punch targets faster than a gunshot.</td>
+<td dir="ltr"><strong>Elemental Flight</strong><br><em>Jets of flame, shocks of lightning, storms of knives</em><br>The monster can propel itself through the air using its elemental <a data-href="#Affinity" href="#Affinity" class="internal-link" target="_self" rel="noopener nofollow">Affinity</a>.</td>
+<td dir="ltr"><strong>Horrid Stench</strong><br><em>Notes of rotting flesh and putrid miasma</em><br>The monster has a vomit-inducing odor.</td>
+<td dir="ltr"><strong>Magnetic</strong><br><em>Strained iron, droning thrums</em><br>The monster can strongly attract or repel metals, perhaps even controlling them with precision at a distance.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️8</td>
+<td dir="ltr"><strong>Portals</strong><br><em>Maddening geometries and too close spaces</em><br>The monster can open portals that connect distant places.</td>
+<td dir="ltr"><strong>Screech</strong><br><em>Burst ears and wailing nights</em><br>The monster has a deafening screech</td>
+<td dir="ltr"><strong>Sticky Ooze</strong><br><em>Sludge and tar</em><br>The monster emits a sticky ooze that can capture and restrain prey.</td>
+<td dir="ltr"><strong>Thorns</strong><br><em>Pricks and pokes may bleed your hopes</em><br>The monster is covered in sharp thorns that can catch and stab all who come near.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️9</td>
+<td dir="ltr"><strong>Burrowing</strong><br><em>Solid ground gives no comfort here</em><br>The monster can burrow into the ground to escape harm or lay in ambush.</td>
+<td dir="ltr"><strong>Elemental Sigils</strong><br><em>Arcane glyphs form in bone and horn, runed fur and warbled irises</em><br>The monster has arcane patterns etched into its body that allow it elemental control according to its <a data-href="#Affinity" href="#Affinity" class="internal-link" target="_self" rel="noopener nofollow">Affinity</a>.</td>
+<td dir="ltr"><strong>Human Form</strong><br><em>What a pretty face</em><br>The monster is a half-human hybrid or perhaps can even transform into a wicked facsimile of a person.</td>
+<td dir="ltr"><strong>Mimic</strong><br><em>The cuckoo's crown</em><br>The monster is capable of mimicking other creatures, seamlessly hiding among their kind</td>
+</tr>
+<tr>
+<td dir="auto">⬇️9</td>
+<td dir="ltr"><strong>Powerful Kick</strong><br><em>Stomped earth and mangled trees</em><br>The monster has a kick that can shatter steel.</td>
+<td dir="ltr"><strong>Scything Wings</strong><br><em>The wicked harvest comes</em><br>The monster has scythe-shaped appendages to cut and gather prey.</td>
+<td dir="ltr"><strong>Sticky Tongue</strong><br><em>Slobbering and wet</em><br>The monster can shoot its tongue at targets to capture them and bring them to its mouth.</td>
+<td dir="ltr"><strong>Time Dilation</strong><br><em>Slow. Fast. Slow. Fast.</em><br>The monster can bend time around it, freezing objects in time or accelerating them into a future of dust.</td>
+</tr>
+<tr>
+<td dir="auto">⬆️10</td>
+<td dir="ltr"><strong>Camouflage</strong><br><em>Shifting patterns and colors hide</em><br>The monster can change the colors of its skin to match its surrounding environment.</td>
+<td dir="ltr"><strong>Explosive Pods</strong><br><em>Fury and force</em><br>The monster can launch pods that explode with deadly force.</td>
+<td dir="ltr"><strong>Hyperbeam</strong><br><em>The force of a thousand suns</em><br>The monster can generate a blast of pure energy to devastate all in its wake.</td>
+<td dir="ltr"><strong>Mind Sense</strong><br><em>Loose thoughts are sure to be found</em><br>The monster can sense the thoughts of nearby creatures, perhaps even being able to read and interpret them.</td>
+</tr>
+<tr>
+<td dir="auto">⬇️10</td>
+<td dir="ltr"><strong>Prehensile Tail</strong><br><em>Whipped and curled with an intelligence almost its own</em><br>The monster has a powerful yet dexterous tail that can be used to hold and manipulate objects</td>
+<td dir="ltr"><strong>Sharp Claws</strong><br><em>Honed to perfection</em><br>The monster has razor sharp claws that can hook, slash, and tear.</td>
+<td dir="ltr"><strong>Stoneskin</strong><br><em>Polished and smooth, impervious and strong</em><br>The monster has skin that moves like flesh but resists damage like a mountain.</td>
+<td dir="ltr"><strong>Tremor Sense</strong><br><em>Treasonous terra firma</em><br>The monster can feel minute vibrations of anything that moves through the ground.</td>
+</tr>
+<tr>
+<td dir="ltr">⬆️Knight</td>
+<td dir="ltr"><strong>Corrosive Miasma</strong><br><em>Melted wood and iron chewed</em><br>The monster exudes an aura of corrosive miasma that eats through everything around it.</td>
+<td dir="ltr"><strong>False Life</strong><br><em>What is dead does not lay peaceful</em><br>The monster is a mockery of life.</td>
+<td dir="ltr"><strong>Hypnotic Patterns</strong><br><em>Hazy lines weave luscious lies</em><br>The monster is covered in a complex pattern that can lull prey into a stupor.</td>
+<td dir="ltr"><strong>Mist</strong><br><em>Clammy skin and blinded sight</em><br>The monster always comes and goes with a thick mist that is nigh impossible to see through.</td>
+</tr>
+<tr>
+<td dir="ltr">⬇️Knight</td>
+<td dir="ltr"><strong>Proboscis</strong><br><em>The deepest drink</em><br>The monster has a needle-sharp proboscis.</td>
+<td dir="ltr"><strong>Silent Movement</strong><br><em>Quieter than thy beating heart</em><br>The monster is supernaturally quiet when it moves and lays in ambush.</td>
+<td dir="ltr"><strong>Strong Bite</strong><br><em>Feel the crush</em><br>The monster has a bite that easily crushes armor and bone, and once locked is nigh impossible to open.</td>
+<td dir="ltr"><strong>Venomous Bite</strong><br><em>Gnashing teeth and foaming maws</em><br>The monster can deliver <a data-href="#Poison" href="#Poison" class="internal-link" target="_self" rel="noopener nofollow">Poison</a> when it bites its prey.</td>
+</tr>
+<tr>
+<td dir="ltr">⬆️Page</td>
+<td dir="ltr"><strong>Chitinous Exoskeleton</strong><br><em>An iridescent sheen of chittering plate</em><br>The monster is clad in interlocking plates of steel-strong chitin.</td>
+<td dir="ltr"><strong>Explosive Slime</strong><br><em>Sticky ichor singes the nose and protests any touch</em><br>The monster excretes a highly unstable slime that explodes at the slightest touch.</td>
+<td dir="ltr"><strong>Hypnotic Gaze</strong><br><em>Alluring eyes, respite, demise</em><br>The monster's gaze can lull its target into stupor, madness, or sleep.</td>
+<td dir="ltr"><strong>Minions</strong><br><em>A murder brought with</em><br>The monster is accompanied by lesser creatures that do its bidding.</td>
+</tr>
+<tr>
+<td dir="ltr">⬇️Page</td>
+<td dir="ltr"><strong>Prehensile Trunk</strong><br><em>Curious snorts and suffocating grips</em><br>The monster has a powerful yet dextrous trunk that can be used to hold and manipulate objects.</td>
+<td dir="ltr"><strong>Shell</strong><br><em>The moving fortress</em><br>The monster is protected by a great shell, near impossible to breach especially when the monster withdraws into it.</td>
+<td dir="ltr"><strong>Stretchy</strong><br><em>Flexed past the breaking point</em><br>The monster has unnaturally flexible limbs that can stretch to uncanny distances.</td>
+<td dir="ltr"><strong>Tusks</strong><br><em>An ivory spear enrobed in scarlet</em><br>The monster has great tusks protruding from its mouth used to smash and stab prey.</td>
+</tr>
+<tr>
+<td dir="ltr">⬆️Queen</td>
+<td dir="ltr"><strong>Crushing Claws</strong><br><em>A vice full of shattered bone</em><br>The monster has great claws that can easily crush prey into a pulp.</td>
+<td dir="ltr"><strong>Feathered Wings</strong><br><em>Sharpened pinions suffocate the sky</em><br>The monster can fly using great feathered wings.</td>
+<td dir="ltr"><strong>Illusory</strong><br><em>Wavy visions and phantom sounds</em><br>The monster can conjure impeccable illusions in the minds of others.</td>
+<td dir="ltr"><strong>Muscular</strong><br><em>Taut tendon, bulging strength, rippling flesh</em><br>The monster is absurdly strong and muscular, able to perform feats of strength with complete ease.</td>
+</tr>
+<tr>
+<td dir="ltr">⬇️Queen</td>
+<td dir="ltr"><strong>Psychic Echo</strong><br><em>Pain of your own making</em><br>The monster's pains and emotions blanket the minds of nearby creatures</td>
+<td dir="ltr"><strong>Siren Song</strong><br><em>A longing embrace blanketing the air</em><br>The monster sings a song that can charm creatures into stupor, madness, or maybe even love.</td>
+<td dir="ltr"><strong>Stunning Flash</strong><br><em>Brilliant light to wash the world</em><br>The monster can generate a blinding flash of light that stuns and blinds creatures caught looking.</td>
+<td dir="ltr"><strong>Venomous Stinger</strong><br><em>Lash and lightning and piercing pain</em><br>The monster has a venomous stinger that can deliver <a data-href="#Poison" href="#Poison" class="internal-link" target="_self" rel="noopener nofollow">Poison</a> when it strikes prey.</td>
+</tr>
+<tr>
+<td dir="ltr">⬆️King</td>
+<td dir="ltr"><strong>Crystal</strong><br><em>Faceted light sparkles, dazzles, and plays</em><br>The monster is comprised of eldritch crystal.</td>
+<td dir="ltr"><strong>Firelights</strong><br><em>Dancing orbs lure the unwary</em><br>The monster can conjure mesmerizing flickers of light in the darkness</td>
+<td dir="ltr"><strong>Ink</strong><br><em>Blackness hiding flight and fight</em><br>The monster can spit obfuscating ink.</td>
+<td dir="ltr"><strong>Opposable Thumbs</strong><br><em>Clever girl</em><br>The monster has opposable thumbs and can dexterously manipulate objects.</td>
+</tr>
+<tr>
+<td dir="ltr">⬇️King</td>
+<td dir="ltr"><strong>Psychic Song</strong><br><em>Like a tune you just can't quit</em><br>The monster sings a song directly into nearby creatures' minds that can trick them into stupor, madness, or sin.</td>
+<td dir="ltr"><strong>Skeletal</strong><br><em>Rattle and grind</em><br>The monster is more bone than flesh.</td>
+<td dir="ltr"><strong>Swarm</strong><br><em>A symphonic buzz and scramble</em><br>The monster is comprised of a swarm of lesser creatures, able to break apart and come together as a horde.</td>
+<td dir="ltr"><strong>Vines</strong><br><em>A verdant rustling cocoon</em><br>The monster has vine-like tendrils that can ensnare prey.</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4 heading-wrapper"><h4 data-heading="Elemental Affinity and Poisons" dir="auto" class="heading" id="Elemental_Affinity_and_Poisons"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Elemental Affinity and Poisons</h4><div class="heading-children"><div class="el-p"><p dir="auto">Some monsters have an affinity to a particular element which can flavor its Aspects. The specific element can be left up to the players, using what makes sense for the Situation and its Truths, or they can draw one (1) card and use the table below for inspiration. Discard the card afterward.</p></div><div class="el-p"><p dir="auto">Similarly, the effects of poison can be left up to players as they role play, or the table below can be consulted.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Suit</th>
+<th dir="ltr">Orientation</th>
+<th dir="ltr">Affinity</th>
+<th dir="ltr">Poison Symptom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Major Arcana 0–X</td>
+<td dir="ltr">Upright</td>
+<td dir="ltr">Acid</td>
+<td dir="ltr">Hallucinations</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse</td>
+<td dir="ltr">Blood</td>
+<td dir="ltr">Madness</td>
+</tr>
+<tr>
+<td dir="ltr">Major Arcana XI–XXI</td>
+<td dir="ltr">Upright</td>
+<td dir="ltr">Light</td>
+<td dir="ltr">Lethargy</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse</td>
+<td dir="ltr">Shadow</td>
+<td dir="ltr">Paralysis</td>
+</tr>
+<tr>
+<td dir="ltr">Wands</td>
+<td dir="ltr">Upright</td>
+<td dir="ltr">Air</td>
+<td dir="ltr">Vomiting</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse</td>
+<td dir="ltr">Lightning</td>
+<td dir="ltr">Bleeding</td>
+</tr>
+<tr>
+<td dir="ltr">Cups</td>
+<td dir="ltr">Upright</td>
+<td dir="ltr">Water</td>
+<td dir="ltr">Blindness</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse</td>
+<td dir="ltr">Ice</td>
+<td dir="ltr">Pain</td>
+</tr>
+<tr>
+<td dir="ltr">Swords</td>
+<td dir="ltr">Upright</td>
+<td dir="ltr">Fire</td>
+<td dir="ltr">Ataxia</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse</td>
+<td dir="ltr">Light</td>
+<td dir="ltr">Metamorphosis</td>
+</tr>
+<tr>
+<td dir="ltr">Pentacles</td>
+<td dir="ltr">Upright</td>
+<td dir="ltr">Earth</td>
+<td dir="ltr">Necrosis</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse</td>
+<td dir="ltr">Metal</td>
+<td dir="ltr">Respiratory Distress</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Reposition Truth cards around the monster's Core, shuffle all discarded cards back into the draw pile, then begin the Engagement.</strong></p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Example of Creating the Monster" dir="auto" class="heading" id="Example_of_Creating_the_Monster"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Example of Creating the Monster</h3><div class="heading-children"><div class="el-div"><div data-callout-metadata="" data-callout-fold="-" data-callout="example" class="callout is-collapsible is-collapsed"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content" style="display: none;">
+<p dir="auto"><em>Having finished creating the situation and characters for <strong>The Ethereal Catacombs</strong>, Ndlovu, Clef, Vikram, and Lei move on to create the monster</em></p>
+<p dir="auto">NDLOVU: Okay, drawing for the <strong>Drive</strong> I've got... the <strong>9 of Pentacles</strong>. Pentacles means <strong>Treasure</strong>. The reason why we're here was because we were laying my grandmother's ashes to rest. Everyone draw a card and we'll go highest to lowest to suggest the <strong>Nature of the Beast</strong>.<br>
+CLEF: I got the <strong>Page of Cups</strong> which is highest so let's go with the the obvious one to get it out of the way: the urn we're holding is made of gold and studded with jewels.<br>
+LEI: I have <strong>8 of Pentacles</strong>. What if one of us pocketed something from another shrine and this is the catacomb guardian?<br>
+VIKRAM: I'll go next with the <strong>VI The Lovers</strong>... let's say the treasure the monster seeks is the ash itself? Or the soul?<br>
+NDLOVU: All these are great. So as the last idea, maybe the monster likes to collect fresh heads.<br>
+CLEF: Me next, for the <strong>Body Plan</strong> I draw... King of Swords. Dang, that's a Minor Arcana. Guess I pass.<br>
+VIKRAM: No worries. I got <strong>II The High Priestess</strong>. Arborescent? Not really sure what to make of that aside from what it just says—a tree. Not much of those underground.<br>
+CLEF: What if we just think about the trunk? I'm imagining like a pillar. Something tall and vertical. Like it could have been mistaken for a supporting structure here.<br>
+LEI: Yeah! Maybe it really is just like a literal pillar of gold or something like that?<br>
+NDLOVU: Oooh, and it's carved with hundreds of faces!<br>
+VIKRAM: You're really going all in on the collecting heads thing.<br>
+NDLOVU: I just think they're neat.<br>
+LEI: Same. Now what's this guy's name?<br>
+NDLOVU: Pillar of Gold is right there.<br>
+VIKRAM: How about the Facets of Avarice?<br>
+CLEF: That rocks. Writing that down on a new index card, and I'm gonna draw a pillar with some smiley faces on it.<br>
+LEI: Nice. Let's go onto <strong>Aspects</strong>. One each, right?<br>
+CLEF: Yeah.<br>
+LEI: Hmm. I drew <strong>0 The Fool</strong>. That's not a Minor Arcana so it's not in the table.<br>
+CLEF: Go ahead and keep drawing.<br>
+LEI: Alright. Now I got <strong>6 of Swords in reverse</strong>. That's <strong>Spines</strong>. What if each carved face has sharpened spikes where their eyes should be?<br>
+NDLOVU: Terrible. I love it.<br>
+LEI: I'll name this new Truth card Pierced Visage and draw a face with spikes coming out of it.<br>
+NDLOVU: Okay me next. <strong>Knight of Swords in reverse</strong> which is <strong>Strong Bite</strong>. Oh man I hate to do this but the faces must be animated with working jaws. Probably screaming, too.<br>
+LEI: Definitely a lot of wailing and gnashing of teeth.<br>
+NDLOVU: Let's just call this Truth Grimace. Here's some teeth.<br>
+CLEF: Cool. So next I've got the <strong>5 of Wands also in reverse</strong>. Did we shuffle this right? Why are all these cards upside down?<br>
+VIKRAM: That's just how coin flips work, dude.<br>
+CLEF: Whatever. That Aspect is <strong>Poison Coat</strong>. I think that's pretty obvious.<br>
+NDLOVU: Describe what we see.<br>
+CLEF: Hmm... we see the glint of gold—shining and and resplendent even in the flickering ghostlight of the catacombs—but as the monster comes closer and our eyes adjust we see an irridescent sheen of oil slicked over gold. The stale underground air shifts with the behemoths movement, and a scent touches our nostrils with an acrid singe.<br>
+NDLOVU: Hell yeah. What's the new Truth called?<br>
+CLEF: Tarnished Gold.<br>
+VIKRAM: Last but not least, me! <strong>7 of Wands, upright</strong>. Told you that's how coin flips work. Looks like the monster has a <strong>Big Sword</strong>.<br>
+LEI: Oh god.<br>
+VIKRAM: I'm going to riff off the Spines and Strong Bite. Ok so once the monster is within "big sword range"—we all know what that is—<br>
+LEI: For sure.<br>
+NDLOVU: Definitely.<br>
+VIKRAM: —we see one of the faces extrude out from the pillar. It bends around and chomps down on one of the biggest spines nearby and pulls sharply, the gold moving at first like a whip then quickly forming into a gigantic khopesh. I'll name the new Truth Hunger for Conquest.<br>
+LEI: Alright! Let's do this.</p>
+</div></div></div><div class="el-p"><p dir="auto"><mark>TODO diagram this monster's Truth as an example</mark></p></div></div></div></div></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Engaging the Monster" dir="auto" class="heading" id="Engaging_the_Monster">Engaging the Monster</h1><div class="heading-children"><div class="el-h2 heading-wrapper"><h2 data-heading="Summary" dir="auto" class="heading" id="Summary"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Summary</h2><div class="heading-children"><div class="el-p"><p dir="auto"><span alt="play area.svg" src="play area.svg" class="internal-embed media-embed image-embed is-loaded"><img alt="play area.svg" src="menagerie-esoterica/monstrum-assets/play-area.svg"></span><br>
+The Engagement begins with players setting a <strong>Goal</strong> and drawing one (1) card face down to represent <strong>Fate</strong> and to hold their <strong>progress tokens</strong>. </p></div><div class="el-p"><p dir="auto">Once the Goal is set, play is organized into rounds, called <strong>Antes</strong>. At the start of each Ante, a <strong>Query</strong> is posed, introducing context and complications into the Engagement. Players then take turns each performing one (1) <strong>Gambit</strong>, where they describe what their character does in the face of the monster, and how they take advantage of <strong>Truths</strong> to further progress to the Goal.</p></div><div class="el-p"><p dir="auto">A Gambit's outcome is determined by drawing tarot cards. Positive outcomes further progress to the Goal, while negative outcomes introduce complications. Regardless of outcome, a Query is posed, and the answer is recorded as a new icon on a Truth card, modifying its meaning.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Set the Goal" dir="auto" class="heading" id="Set_the_Goal"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Set the Goal</h2><div class="heading-children"><div class="el-p"><p dir="auto">Start the Engagement by deciding on a <strong>Goal</strong>. We know how the party got here, but with a monster suddenly threatening them, we need to know what the party intends to do now.</p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="-" data-callout="example" class="callout is-collapsible is-collapsed"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content" style="display: none;">
+<p dir="auto"> <em>Examples of Goals might be:</em></p>
+<ul>
+<li data-line="2" dir="auto">The party is here to hunt the monster and put an end to its reign of terror, and so hunt it they shall.</li>
+<li data-line="3" dir="auto">Scientists want to study the monster and create a theme park so the party is here to capture it live.</li>
+<li data-line="4" dir="auto">A loved one was transformed into the monster, so the party wants to mollify and turn it.</li>
+<li data-line="5" dir="auto">The monster has killed everyone else, and the party only wants to survive long enough to take the last escape pod.</li>
+<li data-line="6" dir="auto">The monster guards an invaluable treasure. All the party has to do is take it and make sure the monster does not follow.</li>
+<li data-line="7" dir="auto">A villain is making his escape and summons a monster to buy time. The party must contend with the threat while capturing their target.</li>
+</ul>
+</div></div></div><div class="el-p"><p dir="auto">The Goal may not necessarily be about killing the monster, and so we do not define the Engagement in terms of hit points; instead we define the Engagement in terms of <strong>progress and Fate</strong>. Draw one (1) card but keep it face down. Place it to the right of the monster's core. This is the <strong>Fate deck</strong>. As the party makes progress on their goal, more face-down cards will be added to this pile, only to be revealed when the party decides to <strong>Take Decisive Action</strong>.</p></div><div class="el-p"><p dir="auto">Players may change the Goal at any time, so long as everyone is in agreement—after all, the difference between flight and fight rides a fine knife's edge.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="The Query" dir="auto" class="heading" id="The_Query"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>The Query</h2><div class="heading-children"><div class="el-p"><p dir="auto">Each round begins with a <strong>Query</strong>, which poses a question that changes the current situation and must be solved or worked around by the party. At the start of the round when a new Query must be posed, draw one (1) card. This is the <strong>Query card</strong>. Use it in conjunction with the Ante to determine the Query. All Engagements start at Ante 1.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Ante</th>
+<th dir="ltr">Card</th>
+<th dir="ltr">Query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr">Any Upright</td>
+<td dir="ltr">What is physically in between us and the goal?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Minor Arcana</td>
+<td dir="ltr">How did we draw the monster's attention?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Major Arcana</td>
+<td dir="ltr">How did we lose track of the monster?</td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="ltr">Any Upright</td>
+<td dir="ltr">What do we need to get to before the monster does?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Minor Arcana</td>
+<td dir="ltr">How is the monster actively threatening us?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Major Arcana</td>
+<td dir="ltr">What precious NPC or treasure is in danger?</td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="ltr">Any Upright</td>
+<td dir="ltr">How has the floor been pulled from under our feet?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Minor Arcana</td>
+<td dir="ltr">What advantages have been rendered useless?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Major Arcana</td>
+<td dir="ltr">What horror does the monster reveal?</td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="ltr">Any Upright</td>
+<td dir="ltr">What fear has been realized?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Minor Arcana</td>
+<td dir="ltr">How were we wrong about the Nature of the Beast?</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="ltr">Reverse Major Arcana</td>
+<td dir="ltr">What was the fatal flaw in our Goal?</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Ask the Query out loud so that it can be discussed as a group, rephrasing and injecting context to make it relevant to the session. Describe how the answer to the Query changes the Situation, calling out any new dangers and complications. Record the answer to the Query by <strong>drawing a new icon or symbol on at least two (2) relevant Truth cards.</strong></p></div><div class="el-p"><p dir="auto">Finally, place the Query card to the left of the monster's Core. Place four (4) tokens on it. These are <strong>Progress Tokens</strong>, representing the remaining time in the round. As players play successful <strong>Gambits</strong>, they will take tokens from this pile and place them atop the Fate deck.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="The Ante" dir="auto" class="heading" id="The_Ante"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>The Ante</h2><div class="heading-children"><div class="el-p"><p dir="auto">The <strong>Ante</strong> represents the rising stakes as the players get closer to their Goal but draw the increasing attention and ire of the monster. The Ante <strong>starts at 1</strong> at the beginning of the Engagement, and will increase over the course of the game to a maximum of four (4). The Ante is tracked by the number of cards in the <strong>Fate deck</strong>.</p></div><div class="el-p"><p dir="auto">When all four (4) tokens have been taken from the <strong>Query card</strong>, the current round ends and the Ante is increased. Remove the tokens from the Fate deck and draw one (1) tarot card. Keeping it face-down, place it atop the Fate deck.</p></div><div class="el-p"><p dir="auto">The Ante is tracked by the number of cards in the <strong>Fate deck</strong>. At the beginning of the Engagement, one (1) face-down tarot card is already in place after deciding on the Goal. At the beginning of each subsequent Ante, draw one (1) tarot card and place it atop the Fate deck, keeping it face-down, thus increasing the Ante by one (1) level. </p></div><div class="el-p"><p dir="auto">Draw and reveal one (1) more tarot card and place it to the left of the monster's Core. This is the new Query card for the round. Answer it as a group, then place four (4) progress tokens on it. Proceed with each player taking turns until the round ends, and repeat.</p></div><div class="el-p"><p dir="auto">At the end of Ante 4 (ie when there are four (4) cards in the Fate deck and no progress tokens remaining on the Query card), the party <strong>must Take Decisive Action</strong>.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Player Turn" dir="auto" class="heading" id="Player_Turn"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Player Turn</h2><div class="heading-children"><div class="el-p"><p dir="auto">Players take turns performing <strong>Gambits</strong> to make progress on the party's Goal in the face of the monster. Turn order is not set; the only rule is that a player may not perform two Gambits in a row (unless playing solo). This is intentionally left loose as action should first follow the fiction and flow between each player as it makes sense; however, we want to ensure space for everyone to take center stage and shine.</p></div><div class="el-p"><p dir="auto">The player turn can be broken into three steps:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">Perform a Gambit. The player describes the action their character does, referencing one or more Truths to explain why their action may be effective.</li>
+<li data-line="1" dir="auto">Read the Outcome. The player draws 3 tarot cards, with the orientation of drawn cards determining success or failure.</li>
+<li data-line="2" dir="auto">Illustrate Icons. The player answers Queries posed by the drawn cards by drawing new icons on relevant Truth cards.</li>
+</ol></div><div class="el-h3 heading-wrapper"><h3 data-heading="Gambits" dir="auto" class="heading" id="Gambits"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Gambits</h3><div class="heading-children"><div class="el-p"><p dir="auto"><strong>Gambits</strong> are the risky, audacious action(s) that a character does in the face of the monster, the outcomes of which are resolved by drawing tarot cards. However, the monster is a force of nature and without a deliberate approach, no progress will be made; therefore, a Gambit is composed not only of the action, but must also be accompanied by one or more <strong>Truths</strong>.</p></div><div class="el-p"><p dir="auto">Actions taken when not under threat of the monster such as walking, talking, and observing are considered free in that we don't need to draw to resolve them. The player characters are at a baseline of competence; if the monster can't directly or indirectly thwart the player's action then there is no reason for them to fail.</p></div><div class="el-p"><p dir="auto">To perform a Gambit, the player gathers at least one (1) and at most (4) Truth cards. The player then describes how their character acts, using the gathered Truths as touch points to explain why their character is able to perform the action and why they think it should be effective. Players are invited to conjure new details, lore, backstory, etc. so long as they make sense within the gathered Truths' context and so long as previously established details are not contradicted.</p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="-" data-callout="example" class="callout is-collapsible is-collapsed"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Example</div><div class="callout-fold is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content" style="display: none;">
+<p dir="auto">Examples of Gambits might include:</p>
+<ul>
+<li data-line="2" dir="auto">Leonid tries to hide from the monster. He gathers the Mind Sense Truth, saying he's hiding by imagining himself far away by the ocean. He also gathers the Ancient High School Truth, saying that he's actually hiding in the bathroom and flushing a toilet to help him visualize waves.</li>
+<li data-line="3" dir="auto">Kim shoots an arrow at the monster's eyes. She gathers the Arcane Glyphs Truth, saying the monster's eyes glow with sigils and must be the source of its magic, as well as gathering her own character's Truth to reference her Specialty of Marksmanship. Rickolas offers his own Specialty of Big and Strong, saying that he is taunting the monster so that its wide-eyed gaze focuses on him.</li>
+<li data-line="4" dir="auto">Pilbin tries to evade the monster and capture its true master by running along the rooftops. They gather the Tentacles Truth, their own Specialty of Parkour, and the Opaque Fog Truth, saying that the monster's slimy limbs will desiccate if they rise out of the mists.</li>
+<li data-line="5" dir="auto">Veronicole closes her eyes and bows. She gathers the Invisibility Truth and the Respected Old Ways Truth, saying that the old folk tales emphasize respect and mention invisible creatures simply wanting to hide, and that by closing her eyes of her own volition, she shows respect for the monster's desire to be unseen.</li>
+</ul>
+</div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Outcomes" dir="auto" class="heading" id="Outcomes"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Outcomes</h3><div class="heading-children"><div class="el-p"><p dir="auto">For every Truth gathered, draw and reveal one (1) tarot card. <strong>Choose the best outcome.</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Card</th>
+<th dir="ltr">Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">At least one (1) Upright Major Arcana</td>
+<td dir="ltr">Success.</td>
+</tr>
+<tr>
+<td dir="ltr">At least one (1) Upright Minor Arcana</td>
+<td dir="ltr">Success with a Toll.</td>
+</tr>
+<tr>
+<td dir="ltr">All cards drawn in Reverse</td>
+<td dir="ltr">Disaster.</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4 heading-wrapper"><h4 data-heading="Success" dir="auto" class="heading" id="Success"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Success</h4><div class="heading-children"><div class="el-p"><p dir="auto">If at least one (1) Major Arcana is drawn upright, then the Gambit was fully successful. Envision the triumph and how your intuition about the gathered Truths led to your success. On at least one (1) of the gathered Truth cards, illustrate a new icon that represents any new lore, details, or outcomes from the played Gambit as it relates to said Truth.</p></div><div class="el-p"><p dir="auto">Move two (2) progress tokens from the Query to Fate. </p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Success with a Toll" dir="auto" class="heading" id="Success_with_a_Toll"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Success with a Toll</h4><div class="heading-children"><div class="el-p"><p dir="auto">If at least one (1) Minor Arcana was drawn upright but there were no upright Major Arcana, then the Gambit was still successful but there is a toll to be paid. Envision the success and the fleeting feeling of victory before the complications reared their head. Use the suit of the drawn Minor Arcana to determine the nature of the complications.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Suit</th>
+<th dir="ltr">Query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Wands</td>
+<td dir="ltr">How did the monster strike back?</td>
+</tr>
+<tr>
+<td dir="ltr">Pentacles</td>
+<td dir="ltr">What was the collateral damage?</td>
+</tr>
+<tr>
+<td dir="ltr">Cups</td>
+<td dir="ltr">Why are you unsteady?</td>
+</tr>
+<tr>
+<td dir="ltr">Swords</td>
+<td dir="ltr">How was the situation misconstrued?</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">On at most one (1) relevant Truth, illustrate a new icon that represents any new lore or details from the Gambit's success. On at least one (1) Truth (it can be the same), illustrate a new icon that represents the complications and harm that arose.</p></div><div class="el-p"><p dir="auto">Move one (1) progress token from the Query to Fate.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Disaster" dir="auto" class="heading" id="Disaster"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Disaster</h4><div class="heading-children"><div class="el-p"><p dir="auto">If no cards were drawn upright, then the Gambit was a disaster. Whether by poor assumptions, bad footing, or simple bad luck, the situation worsens. Envision the catastrophe, using the suit of any drawn card to determine its nature. </p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Suit</th>
+<th dir="ltr">Query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Major Arcana 0-X</td>
+<td dir="ltr">How has the goal slipped further away?</td>
+</tr>
+<tr>
+<td dir="ltr">Major Arcana XI–XXI</td>
+<td dir="ltr">How did the monster defy expectations?</td>
+</tr>
+<tr>
+<td dir="ltr">Swords</td>
+<td dir="ltr">What trick did the monster pull?</td>
+</tr>
+<tr>
+<td dir="ltr">Wands</td>
+<td dir="ltr">How were you cornered?</td>
+</tr>
+<tr>
+<td dir="ltr">Cups</td>
+<td dir="ltr">Why did you falter?</td>
+</tr>
+<tr>
+<td dir="ltr">Pentacles</td>
+<td dir="ltr">Who has been harmed?</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">On at least two (2) relevant Truths, illustrate a new icon representing the disaster.</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Illustrating Icons" dir="auto" class="heading" id="Illustrating_Icons"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Illustrating Icons</h3><div class="heading-children"><div class="el-p"><p dir="auto">As Gambits are played and the Ante increases, players will be asked to illustrate new icons on Truth cards. Spend no more than 30 seconds drawing an icon. While the envisioned successes and failures  can be filled with detail, the icons themselves should remain basic and up to interpretation. </p></div><div class="el-p"><p dir="auto">Icons are representations, not reminders. After all, a disadvantage one moment can become advantageous the next; or vice versa.</p></div><div class="el-p"><p dir="auto">When modifying a Truth with an icon, you may draw over and around existing icons; however, you may not erase them. After adding a new icon to a Truth, add one (1) tick to the tally at the top of the card.</p></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Take Decisive Action" dir="auto" class="heading" id="Take_Decisive_Action"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Take Decisive Action</h2><div class="heading-children"><div class="el-p"><p dir="auto">At any point during the Engagement, or at the end of Ante 4, the party may <strong>Take Decisive Action</strong> and collectively describe how they bring the encounter to a close. Reveal all cards in the <strong>Fate deck</strong>, choose the <strong>best outcome</strong> below based on the cards' arcana and orientation, and answer the final Query as a group.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Card</th>
+<th dir="ltr">Outcome</th>
+<th dir="ltr">Query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">At least one (1) Upright Major Arcana</td>
+<td dir="ltr">Triumph</td>
+<td dir="ltr">What was celebrated?</td>
+</tr>
+<tr>
+<td dir="ltr">At least one (1) Upright Minor Arcana</td>
+<td dir="ltr">Success with a Toll</td>
+<td dir="ltr">What scars remain?</td>
+</tr>
+<tr>
+<td dir="ltr">All cards Reversed</td>
+<td dir="ltr">Pyrrhic Victory</td>
+<td dir="ltr">What was sacrificed?</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Regardless of the draw, the Engagement comes to a close, with the monster successfully slain, slaked, captured, or fled. Now you may Rest.</p></div><div class="el-p"><p dir="auto"><mark>TODO example final Ante</mark></p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Introduction"><div class="tree-item-contents heading-link" heading-name="Introduction"><span class="tree-item-title">Introduction</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Items_Needed"><div class="tree-item-contents heading-link" heading-name="Items Needed"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Items Needed</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#The_Tarot_Deck"><div class="tree-item-contents heading-link" heading-name="The Tarot Deck"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">The Tarot Deck</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Optional_Rule:_Illustrations_and_Interpretations"><div class="tree-item-contents heading-link" heading-name="Optional Rule: Illustrations and Interpretations"><span class="tree-item-title">Optional Rule: Illustrations and Interpretations</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Summary_of_Play"><div class="tree-item-contents heading-link" heading-name="Summary of Play"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Summary of Play</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Truths"><div class="tree-item-contents heading-link" heading-name="Truths"><span class="tree-item-title">Truths</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Shuffling_the_Deck"><div class="tree-item-contents heading-link" heading-name="Shuffling the Deck"><span class="tree-item-title">Shuffling the Deck</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Ordering_Cards"><div class="tree-item-contents heading-link" heading-name="Ordering Cards"><span class="tree-item-title">Ordering Cards</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Creation"><div class="tree-item-contents heading-link" heading-name="Creation"><span class="tree-item-title">Creation</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Creating_the_Situation"><div class="tree-item-contents heading-link" heading-name="Creating the Situation"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Creating the Situation</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Truths"><div class="tree-item-contents heading-link" heading-name="Truths"><span class="tree-item-title">Truths</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Why_are_you_here?"><div class="tree-item-contents heading-link" heading-name="Why are you here?"><span class="tree-item-title">Why are you here?</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Example_of_Creating_the_Situation"><div class="tree-item-contents heading-link" heading-name="Example of Creating the Situation"><span class="tree-item-title">Example of Creating the Situation</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Creating_the_Player_Characters"><div class="tree-item-contents heading-link" heading-name="Creating the Player Characters"><span class="tree-item-title">Creating the Player Characters</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Creating_the_Monster"><div class="tree-item-contents heading-link" heading-name="Creating the Monster"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Creating the Monster</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Step_1._Divine_Natures_of_the_Beast"><div class="tree-item-contents heading-link" heading-name="Step 1. Divine Natures of the Beast"><span class="tree-item-title">Step 1. Divine Natures of the Beast</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Step_2._Behold_the_Monster"><div class="tree-item-contents heading-link" heading-name="Step 2. Behold the Monster"><span class="tree-item-title">Step 2. Behold the Monster</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Step_3._Uncover_the_Monster's_Aspects"><div class="tree-item-contents heading-link" heading-name="Step 3. Uncover the Monster's Aspects"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Step 3. Uncover the Monster's Aspects</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Elemental_Affinity_and_Poisons"><div class="tree-item-contents heading-link" heading-name="Elemental Affinity and Poisons"><span class="tree-item-title">Elemental Affinity and Poisons</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Example_of_Creating_the_Monster"><div class="tree-item-contents heading-link" heading-name="Example of Creating the Monster"><span class="tree-item-title">Example of Creating the Monster</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Engaging_the_Monster"><div class="tree-item-contents heading-link" heading-name="Engaging the Monster"><span class="tree-item-title">Engaging the Monster</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Summary"><div class="tree-item-contents heading-link" heading-name="Summary"><span class="tree-item-title">Summary</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Set_the_Goal"><div class="tree-item-contents heading-link" heading-name="Set the Goal"><span class="tree-item-title">Set the Goal</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#The_Query"><div class="tree-item-contents heading-link" heading-name="The Query"><span class="tree-item-title">The Query</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#The_Ante"><div class="tree-item-contents heading-link" heading-name="The Ante"><span class="tree-item-title">The Ante</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Player_Turn"><div class="tree-item-contents heading-link" heading-name="Player Turn"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Player Turn</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Gambits"><div class="tree-item-contents heading-link" heading-name="Gambits"><span class="tree-item-title">Gambits</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Outcomes"><div class="tree-item-contents heading-link" heading-name="Outcomes"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Outcomes</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Success"><div class="tree-item-contents heading-link" heading-name="Success"><span class="tree-item-title">Success</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Success_with_a_Toll"><div class="tree-item-contents heading-link" heading-name="Success with a Toll"><span class="tree-item-title">Success with a Toll</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Disaster"><div class="tree-item-contents heading-link" heading-name="Disaster"><span class="tree-item-title">Disaster</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Illustrating_Icons"><div class="tree-item-contents heading-link" heading-name="Illustrating Icons"><span class="tree-item-title">Illustrating Icons</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="menagerie-esoterica/menagerie-esoterica.html#Take_Decisive_Action"><div class="tree-item-contents heading-link" heading-name="Take Decisive Action"><span class="tree-item-title">Take Decisive Action</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
