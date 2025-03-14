@@ -1,12 +1,13 @@
 {
   "vaultName": "Menagerie Esoterica",
-  "lastExport": 1741932735574,
+  "lastExport": 1741933447797,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-mocha ctp-full-palette ctp-bold-folder-title top-sidenote-callout-title l-right-callout-title r-left-callout-title sidenote-backgound",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "Menagerie Esoterica/Menagerie Esoterica.md",
+    "menagerie-esoterica/img_0847.png",
     "menagerie-esoterica/monstrum-assets/truth_card.svg",
     "menagerie-esoterica/monstrum-assets/drive.svg",
     "menagerie-esoterica/monstrum-assets/core.svg",
@@ -60,10 +61,11 @@
   ],
   "fileInfo": {
     "Menagerie Esoterica/Menagerie Esoterica.md": {
-      "modifiedTime": 1741932735574,
-      "sourceSize": 74708,
+      "modifiedTime": 1741933447797,
+      "sourceSize": 74753,
       "exportedPath": "menagerie-esoterica/menagerie-esoterica.html",
       "dependencies": [
+        "menagerie-esoterica/img_0847.png",
         "menagerie-esoterica/monstrum-assets/truth_card.svg",
         "menagerie-esoterica/monstrum-assets/drive.svg",
         "menagerie-esoterica/monstrum-assets/core.svg",
@@ -71,25 +73,25 @@
       ]
     },
     "menagerie-esoterica/monstrum-assets/truth_card.svg": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 3028,
       "exportedPath": "menagerie-esoterica/monstrum-assets/truth_card.svg",
       "dependencies": []
     },
     "menagerie-esoterica/monstrum-assets/drive.svg": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 493,
       "exportedPath": "menagerie-esoterica/monstrum-assets/drive.svg",
       "dependencies": []
     },
     "menagerie-esoterica/monstrum-assets/core.svg": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 665,
       "exportedPath": "menagerie-esoterica/monstrum-assets/core.svg",
       "dependencies": []
     },
     "menagerie-esoterica/monstrum-assets/play-area.svg": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 4592,
       "exportedPath": "menagerie-esoterica/monstrum-assets/play-area.svg",
       "dependencies": []
@@ -101,85 +103,85 @@
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -191,7 +193,7 @@
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
@@ -233,7 +235,7 @@
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
@@ -245,39 +247,45 @@
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 137406,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 2251292,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 347,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 85,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1741932735574,
+      "modifiedTime": 1741933447797,
       "sourceSize": 4590,
       "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
+    "menagerie-esoterica/img_0847.png": {
+      "modifiedTime": 1741933447797,
+      "sourceSize": 7164967,
+      "exportedPath": "menagerie-esoterica/img_0847.png",
       "dependencies": []
     }
   }
